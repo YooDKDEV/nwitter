@@ -5,10 +5,10 @@ const Navigation = () => {
     <nav>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/">홈화면</Link>
         </li>
         <li>
-          <Link to="/profile">My Profile</Link>
+          <Link to="/profile">나의 프로필(현재 로그아웃 버튼 페이지 이동 전용)</Link>
         </li>
       </ul>
     </nav>

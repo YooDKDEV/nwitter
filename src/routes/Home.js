@@ -74,12 +74,12 @@ const Home = ({ userObj }) => {
             value={nweet}
             onChange={onChange}
             type="text"
-            placeholder="What's on your mind?"
+            placeholder="오늘 나의 기분은 어때요?"
             maxLength={120}
           />
           
           <input type="file" accept="image/*" onChange={onFileChange} />
-          <input type="submit" value="Nweet" />
+          <input type="submit" value="게시글 올리기" />
           {attachment && (
           <div>
             <img src={attachment} width="50px" height="50px" />
